@@ -89,7 +89,7 @@
 
 .content {
   justify-content: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 .card__content {
@@ -292,4 +292,112 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-items: center;
+  flex-basis: 220px;
+  gap: 40px;
+}
+
+.step {
+  display: flex;
+  width: 220px;
+  flex-wrap: wrap;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 80px;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+  margin-bottom: 100px;
+  color: #ffffff;
+}
+
+.footer__column-heading {
+  column-gap: 80px;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  margin-bottom: 6;
 }
