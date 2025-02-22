@@ -322,8 +322,8 @@
 
 .step {
   display: flex;
-  width: 220px;
   flex-wrap: wrap;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -367,7 +367,6 @@
 .footer__logo {
   width: 58px;
   height: 80px;
-  margin-bottom: 100px;
   color: #ffffff;
 }
 
@@ -390,6 +389,8 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+  align-items: center;
+  column-gap: 80px;
 }
 
 .footer__social-icon {
@@ -399,5 +400,5 @@
 }
 
 .footer__copyright {
-  margin: 0;
+  margin-top: 100px;
 }
